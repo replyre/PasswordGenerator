@@ -18,40 +18,44 @@
           <input type="text" disabled />
           <span class="material-symbols-rounded">copy_all</span>
         </div>
-        <div class="pass-indicator">
-          <div class="pass-length">
-            <div class="details">
-              <label for="" class="title">Password Length</label>
-              <span></span>
-            </div>
-            <input type="range" min="1" max="30" vlaue="15" step="1" />
+        <div class="pass-indicator"></div>
+        <div class="pass-length">
+          <div class="details">
+            <label for="" class="title">Password Length</label>
+            <span></span>
           </div>
-          <div class="pass-settings">
-            <label for="" class="title">Password Settings</label>
-            <ul class="options">
-              <li class="options">
-                <input type="checkbox" name="" id="lowercase" checked />
-                <label for="lowercase"> Lowercase (a-z)</label>
-              </li>
-              <li class="options">
-                <input type="checkbox" name="" id="uppercase" checked />
-                <label for="uppercase"> Uppercase (A-Z)</label>
-              </li>
-              <li class="options">
-                <input type="checkbox" name="" id="numbers" checked />
-                <label for="numbers"> Numbers (0-9)</label>
-              </li>
-              <li class="options">
-                <input type="checkbox" name="" id="symbols" checked />
-                <label for="symbols"> Symbols (!-$^+)</label>
-              </li>
-              <li class="options">
-                <input type="checkbox" name="" id="exe-duplicate" checked />
-                <label for="exe-duplicate"> Execute Duplicate</label>
-              </li>
-            </ul>
-          </div>
+          <input type="range" min="1" max="30" vlaue="15" step="1" />
         </div>
+        <div class="pass-settings">
+          <label for="" class="title">Password Settings</label>
+          <ul class="options">
+            <li class="option">
+              <input type="checkbox" name="" id="lowercase" checked />
+              <label for="lowercase"> Lowercase (a-z)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" name="" id="uppercase" checked />
+              <label for="uppercase"> Uppercase (A-Z)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" name="" id="numbers" checked />
+              <label for="numbers"> Numbers (0-9)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" name="" id="symbols" checked />
+              <label for="symbols"> Symbols (!-$^+)</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" name="" id="exe-duplicate" checked />
+              <label for="exe-duplicate"> Execute Duplicate</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" name="" id="spaces" checked />
+              <label for="exe-duplicate">Include Spaces</label>
+            </li>
+          </ul>
+        </div>
+
         <button class="generate-btn">Generate Password</button>
       </div>
     </div>
